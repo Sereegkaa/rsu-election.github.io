@@ -1,0 +1,103 @@
+@font-face {
+    font-family: '../fonts/Montserrat';
+    src: url('../fonts/montserrat.eot');
+    src: url('../fonts/montserrat.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/montserrat.woff') format('woff'),
+    url('../fonts/montserrat.woff2') format('woff2'),
+    url('../fonts/montserrat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main {
+    padding-top: 5%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2{
+    margin-bottom: 1.5em;
+}
+
+.window {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    margin: 50px auto;
+    max-width: 700px;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    width: 30vw !important;
+    margin: 30px auto;
+    background-color: #244685 !important;
+    border: 1px solid #244685 !important;
+    min-width: 200px;
+}
+
+button:hover {
+    background-color: #244685 !important;
+    border: 1px solid #1f3b70 !important;
+}
+
+.window p {
+    font-size: 0.7rem;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+.cand {
+    width: 100%;
+    display: inline-block;
+    padding: 0 40px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: top;
+    margin: auto;
+}
+
+.cand img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.btn-cand {
+    font-size: 12px;
+    width: 100px !important;
+    margin: 2em;
+    display: inline-block;
+}
+
+.window1 {
+    margin: 100px auto;
+}
+
+.btn-n, .btn-n:hover, .btn-n:active, .btn-n:focus, .btn-n:target {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    text-decoration: underline !important;
+}

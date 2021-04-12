@@ -1,0 +1,82 @@
+h1, h3 {
+    text-align: center;
+    margin: 1rem;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.card {
+    float: left;
+    padding: 20px;
+    margin: 0 20px 0 0;
+}
+
+.window {
+    text-align: center;
+}
+
+.inst {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 1rem;
+    width: fit-content;
+    display: inline-block;
+    text-align: center;
+}
+
+.cand {
+    text-align: center;
+    margin: 1rem;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.card {
+    border: none;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    z-index: 2;
+}
+
+
+.pie {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.pie:after {
+    border-radius: 50%;
+    content: "";
+    background: #fff;
+
+}
+
+body {
+    display: inline-block !important;
+    text-align: center;
+}
+
+.p1{
+    padding: 10px;
+    background-color: limegreen;
+}
+
+.p2 {
+    padding: 10px;
+    background-color: darkred;
+}
